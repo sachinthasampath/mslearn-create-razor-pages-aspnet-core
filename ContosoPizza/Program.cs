@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<PizzaService>();
+builder.Services.AddScoped<ProductService>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();

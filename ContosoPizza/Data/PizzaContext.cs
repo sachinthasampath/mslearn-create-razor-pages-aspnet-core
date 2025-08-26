@@ -11,3 +11,4 @@ namespace ContosoPizza.Data
         public DbSet<ContosoPizza.Models.Pizza>? Pizzas { get; set; }
     }
 }
+ 
